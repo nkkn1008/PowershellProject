@@ -29,6 +29,7 @@ class Student : Person
 	}
 }
 
+# enum
 enum Colours
 {
 	Red
@@ -37,3 +38,7 @@ enum Colours
 }
 
 [Colours]::Red
+
+# Convert-String
+# サンプルパターンから法則を読み取って置換してくれる
+"Lee Holmes", "Steve Lee", "Jeffrey Snover" | Convert-String -Example "Bill Gates=Gates, B.", "John Smith=Smith, J."
