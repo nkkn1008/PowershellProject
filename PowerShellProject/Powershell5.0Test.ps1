@@ -29,4 +29,11 @@ class Student : Person
 	}
 }
 
-Main
+enum Colours
+{
+	Red
+	Blue
+	Green
+}
+
+[Colours]::Red
